@@ -26,7 +26,7 @@ selete语句
     eg:select name from a where address in ('shanghai','beijing');//查询a表中address值为北京，上海的记录，显示name字段
     
     eg:select a.name,b.chengji from a,b where a.name=b.name;//查询a，b两表中那name字段相同的记录，并显示a中的name字段，b中的chengji字段
-    <=> select a.name,b.chengji from a inner join b on (a.name=b.name);//【内联接】
+    = select a.name,b.chengji from a inner join b on (a.name=b.name);//【内联接】
  insert语句
     insert into 表名 [列名] valules 列值
     eg:insert into M('name','pwd','code') values('tony','admin','abcd');
